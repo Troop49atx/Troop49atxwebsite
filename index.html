@@ -43,6 +43,32 @@
             background-color: #003E73;
             color: white;
         }
+        .banner {
+            width: 100%;              /* Full width */
+            overflow: hidden;         /* Hide anything overflowing */
+            background-color: #333;   /* Dark background color */
+            color: white;             /* White text */
+            font-size: 20px;          /* Font size */
+            padding: 10px 0;          /* Padding on top and bottom */
+            text-align: center;       /* Center align the text */
+        }
+
+        /* Scroll animation */
+        .banner-text {
+            display: inline-block;
+            white-space: nowrap;      /* Prevent the text from wrapping */
+            animation: scroll 10s linear infinite; /* Animate the text */
+        }
+
+        /* Keyframes for the scrolling animation */
+        @keyframes scroll {
+            from {
+                transform: translateX(100%); /* Start off-screen to the right */
+            }
+            to {
+                transform: translateX(-100%); /* End off-screen to the left */
+            }
+        }
     </style>
 </head>
 <body>
@@ -62,7 +88,11 @@
         <a href="#contact">Contact</a>
         <a href="https://youtube.com">Photos</a>
     </nav>
-
+    <div class="banner">
+        <div class="banner-text">
+            Welcome to our website! Stay tuned for more updates and news.
+        </div>
+    </div>
     <!-- Home Section -->
     <section id="home">
         <h2>Welcome to Troop 49</h2>
