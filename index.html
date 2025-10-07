@@ -1,153 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Austin Scout Troop 49</title>
-    <style>
-        #headerjpg{
-            max-width: 100vw;
-            padding: 0px;
-            margin: 0px;
-        }
-        
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            color: white;
-            text-align: center;
-            padding: 0 0 20px;
-            background-color: #003E73;
-        }
-        nav {
-            background-color: #003E73;
-            text-align: center;
-            padding: 10px 0;
-        }
-        nav a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 40px;
-            margin: 20px;
-            background-color: white;
-            border-radius: 8px;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #003E73;
-            color: white;
-        }
-        .banner {
-            width: 100%;              /* Full width */
-            overflow: hidden;         /* Hide anything overflowing */
-            background-color: #333;   /* Dark background color */
-            color: white;             /* White text */
-            font-size: 20px;          /* Font size */
-            padding: 10px 0;          /* Padding on top and bottom */
-            text-align: center;       /* Center align the text */
-        }
-
-        /* Scroll animation */
-        .banner-text {
-            display: inline-block;
-            white-space: nowrap;      /* Prevent the text from wrapping */
-            animation: scroll 25s linear infinite; /* Animate the text */
-        }
-
-        /* Keyframes for the scrolling animation */
-        @keyframes scroll {
-            from {
-                transform: translateX(100%); /* Start off-screen to the right */
-            }
-            to {
-                transform: translateX(-100%); /* End off-screen to the left */
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=supreme@500,700&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <img src="T49Header.jpg" id="headerjpg">
-        <br>
-        <h1>Troop 49 Austin,Texas</h1>
-        <p>Building Leaders for Tomorrow</p>
-    </header>
-
-    <!-- Navigation Section -->
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#events">Events</a>
-        <a href="#contact">Contact</a>
-        <a href="https://youtube.com">Photos</a>
-    </nav>
-    <div class="banner">
-        <div class="banner-text">
-            Welcome to our website!____Stay tuned for more updates and news____Deadline 3/9/2025 to sign up for Summer Camp____Get ready for Troop 49's Garage sale 3/22/2025 6am-noon____Do a good turn daily!____Troop 49 is the best!____I love that your still reading this____I dont want it to stop_____ok, is stopping.  
+    <div class="navbar bg-base-100 shadow-sm absolute top-0 z-10">
+        <div class="flex-1">
+            <a class="btn btn-ghost text-xl" href="./">Home</a>
+        </div>
+        <div class="flex-none">
+            <button class="btn btn-square btn-ghost">
+                <a href="https://troop49atx.square.site/" class="mr-8">Dontate</a>
+            </button>
         </div>
     </div>
-    <!-- Home Section -->
-    <section id="home">
-        <h2>Welcome to Troop 49</h2>
-        <p>We are a Scout Troop based in Austin, Texas. Our mission is to instill the values of leadership, service, and outdoor adventure in young Scouts. Join us on our journey to make a positive impact in the community and the world.</p>
-        <p>We meet regularly and plan exciting activities like camping trips, community service projects, and leadership development events. Whether you're new to scouting or an experienced member, there's a place for you with us!</p>
-    </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We are a scout group located in the Brentwood Neighborhood in North Central Austin. We meet every Tuesday at Faith Lutheran Church, located at 6600 Woodrow Avenue. We are a scout-led troop that strives to provide each scout with the opportunity to advance through scout ranks and earn merit badges. Our group camps at least 9 times each year, attends a weeklong summertime merit badge camp, and provides a high adventure excursion for older scouts. Our group encourages personal growth through leadership opportunities, knowledge of practical skills, and service to our community.Troop 49 has been in the Brentwood/Crestview neighborhood for over 60 years. Our troop is dedicated to developing strong character and leadership in young individuals through the Scout Oath and Scout Law.</p>
-        <p>We are part of the larger Capitol Area Council, which provides us with access to numerous resources, events, and training opportunities to help our Scouts grow. Our leaders are committed volunteers who support Scouts in reaching their full potential in a fun and challenging environment.</p>
-    </section>
-
-    <!-- Events Section -->
-    <section id="events">
-        <h2><a href='https://calendar.google.com/calendar/u/0?cid=YXVzdGludHJvb3A0OUBnbWFpbC5jb20'>Upcoming Events</a></h2>
-        <ul>
-            <li><strong>March 4, 2025:</strong>  Football at Brentwood Park (in lieu of regular meeting), 7pm Brentwood Park.</li>
-            <li><strong>March 6, 2025:</strong> New parent orientation meeting, 7pm Central Market</li>
-            <li><strong>March 11, 2025:</strong> Rank advancement meeting, 7pm FLC</li>
-            <li><strong>March 11, 2025:</strong> Spring Break! No meeting</li>
-            <li><strong>March 22, 2025:</strong> first annual Troop 49 garage sale</li>
-            <li><strong>March 29, 2025:</strong>  FLC work day</li>
-            <li><strong>April 5, 2025:</strong> Brentwood Rocks fundraising and socializing table opportunity.</li>
-            <li><strong>April 18, 2025:</strong> possible JLT campout</li>
-            <li><strong>April 12, 2025:</strong> troop 49 creek cleanup Keep Austin Beautiful Day 9am-11am</li>
-        </ul>
-          <h2><a href='https://docs.google.com/document/d/e/2PACX-1vRvjdwzCsVmfj1HRkzFRtf6erlr0mMgmNz7uhwNOyVsHn8fUW0-Z95l8HH4yXUQ0rjEqNwNzP_2DC8o/pub'>Mulch Sales!</a></h2>
-    </ul>
-        <p>We encourage all Scouts to participate and develop their skills in outdoor activities, teamwork, and service. Check back for more event details!</p>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or would like to get involved with Troop 49, please reach out to us!</p>
-        <p><strong>Email:</strong> austintroop49@gmail.com</p>
-        <p><strong>Address:</strong> 6600 Woodrow Ave, Austin, TX 78757</p>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 Austin Scout Troop 49 | All Rights Reserved</p>
-    </footer>
+    <div class="relative text-center font-[supreme] font-bold flex h-screen object-center">
+        <img src="hero3.jpg" alt="pluh" class="h-[100vh] min-w-screen overflow-x-hidden object-cover">
+        <p class="absolute top-[5%] left-[50%] translate-x-[-50%] xl:text-9xl lg:text-8xl md:text-7xl text-4xl mt-10">
+            TROOP 49
+        </p>
+        <p class="absolute bottom-[8%] m-0 left-[50%] translate-x-[-50%] w-[90vw] 2xl:text-9xl lg:text-8xl md:text-7xl text-4xl">
+            WE DO DANGEROUS THINGS SAFELY.
+        </p>
+    </div>
+    <div class="flex items-center flex-col justify-center text-center text-6xl m-[3vh] font-[supreme] font-bold">
+        <a href="https://calendar.google.com/calendar/u/0?cid=YXVzdGludHJvb3A0OUBnbWFpbC5jb20" class="w-auto p-3 hover:text-7xl hover:p-1.5">
+            CALENDAR
+        </a>
+        <a onclick="my_modal_2.showModal()" class="w-auto p-3 hover:text-7xl hover:p-1.5 cursor-pointer">
+            JOIN US
+        </a>
+        <dialog id="my_modal_2" class="modal">
+            <div class="modal-box font-sans">
+                <h3 class="text-lg font-bold">Welcome!</h3>
+                <p class="py-4 text-[1rem] font-normal">
+                    Join us on any Tuesday night at Fath Lutheran Church!<br>
+                    6600 Woodrow Ave, Austin, TX 78757; Tuesdays 7:00 PM
+                </p>
+                <div class="modal-action">
+                    <form method="dialog">
+                        <!-- if there is a button in form, it will close the modal -->
+                        <button class="btn">Close</button>
+                    </form>
+                </div>
+            </div>
+        </dialog>
+        <a href="./service" class="text-p w-auto p-3 hover:text-7xl hover:p-1.5">
+            SERVICE PROJECTS
+        </a>
+        <a href="./gallery" class="w-auto p-3 hover:text-7xl hover:p-1.5">
+            GALLERY
+        </a>
+        <a href="./aboutus" class="w-auto p-3 hover:text-7xl hover:p-1.5">
+            ABOUT US
+        </a>
+    </div>
 </body>
 </html>
-
-
-
-
-
