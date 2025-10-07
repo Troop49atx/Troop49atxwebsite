@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../output.css" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=supreme@500,700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="navbar bg-base-100 shadow-sm absolute top-0 z-10">
+        <div class="flex-1">
+            <a class="btn btn-ghost text-xl" href="../">Home</a>
+        </div>
+        <div class="flex-none">
+            <button class="btn btn-square btn-ghost">
+                <a href="https://troop49atx.square.site/" class="mr-8">Dontate</a>
+            </button>
+        </div>
+    </div>
+
+    <div class=" flex flex-col  items-center justify-center">
+        <p class="text-center text-3xl w-[80vw] mt-16">
+            Here in Troop 49, we like to help out our community by doing service projects for organizations and others. One 
+            important part of being a scout is to do your best to help other people every day, and this is one way that we help 
+            give back to the community. If you know of a worthwhile community service that we could help with, feel free to 
+            tell us about it by pressing the button below.
+        </p>
+        <!-- Open the modal using ID.showModal() method -->
+        <button class="btn m-10 btn-primary" onclick="my_modal_1.showModal()">Button Below</button>
+        <dialog id="my_modal_1" class="modal">
+            <div class="modal-box">
+                <h3 class="text-lg font-bold">Tell us about a service!</h3>
+                <p class="py-4">Email: austintroop49@gmail.com <br> <br>
+                    (Press ESC key or click the button below to close)
+                </p>
+                <div class="modal-action">
+                    <form method="dialog">
+                        <!-- if there is a button in form, it will close the modal -->
+                        <button class="btn">Close</button>
+                    </form>
+                </div>
+             </div>
+        </dialog>
+
+        <figure class="diff aspect-16/9 w-[80vw] h-auto" tabindex="0">
+            <div class="diff-item-1" role="img" tabindex="0">
+                <img alt="before" src="../before.jpg" />
+            </div>
+            <div class="diff-item-2" role="img">
+                <img alt="daisy" src="../after.jpg" />
+            </div>
+            <div class="diff-resizer"></div>
+        </figure>
+    </div>
+</body>
+</html>
